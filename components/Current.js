@@ -6,6 +6,9 @@ export default function Current(data) {
   return (
     <div>
       <p>{currentDate}</p>
+      <p>{data.current.temp} &#8451;C</p>
+      <p>{data.current.feels_like}</p>
+      <p>{data.current.wind_speed}</p>
     </div>
   );
 }
